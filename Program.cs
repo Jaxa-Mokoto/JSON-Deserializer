@@ -11,4 +11,5 @@ string fileName = "person.json";
 string jsonString = File.ReadAllText(fileName);
 
 Person? person = JsonSerializer.Deserialize<Person>(jsonString, opt);
+
 Console.WriteLine($"The first name is: {person!.Name}"); //deserializer is case sensitive
