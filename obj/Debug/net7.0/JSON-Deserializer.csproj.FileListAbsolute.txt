@@ -1,0 +1,15 @@
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.csproj.AssemblyReference.cache
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.AssemblyInfoInputs.cache
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.AssemblyInfo.cs
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.csproj.CoreCompileInputs.cache
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/bin/Debug/net7.0/JSON-Deserializer
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/bin/Debug/net7.0/JSON-Deserializer.deps.json
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/bin/Debug/net7.0/JSON-Deserializer.runtimeconfig.json
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/bin/Debug/net7.0/JSON-Deserializer.dll
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/bin/Debug/net7.0/JSON-Deserializer.pdb
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.dll
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/refint/JSON-Deserializer.dll
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.pdb
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/JSON-Deserializer.genruntimeconfig.cache
+/Users/modjadjimokoto/Documents/GitHub/JSON-Deserializer/obj/Debug/net7.0/ref/JSON-Deserializer.dll

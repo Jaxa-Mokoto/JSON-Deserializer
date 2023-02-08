@@ -1,0 +1,25 @@
+{
+  "id": 1,
+  "name": "John",
+  "surname": "Wick",
+  "age": 45,
+  "address": {
+    "streetname": "1 York Street",
+    "city": "Sydeny",
+    "zipcode": 2000
+  },
+  "phones": [
+    {
+      "phonetype": "Home",
+      "phonenumber": 231522565
+    },
+    {
+      "phonetype": "Mobile",
+      "phonenumber": 451522565
+    },
+    {
+      "phonetype": "Home",
+      "phonenumber": 231526755
+    }
+  ]
+}
