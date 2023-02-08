@@ -1,4 +1,5 @@
-﻿using System.Text.Json;
+﻿using System.Net.Http;
+using System.Text.Json;
 using Deserializer.Models;
 
 var opt = new JsonSerializerOptions
@@ -6,10 +7,27 @@ var opt = new JsonSerializerOptions
     PropertyNameCaseInsensitive = true //ignores case sensitivity
 };
 
-string fileName = "person.json";
+HttpClient client = new()
+{
+    BaseAddress = new Uri("http://localhost:5043")
+};
 
-string jsonString = File.ReadAllText(fileName);
+var response = await client.GetAsync("/weatherforecast");
 
-Person? person = JsonSerializer.Deserialize<Person>(jsonString, opt);
+if (response.IsSuccessStatusCode)
+{
+    // create a collection of temperatures
+    var temperatures = await JsonSerializer.DeserializeAsync<Temperature[]>(await response.Content.ReadAsStreamAsync(), opt);
+    if (temperatures != null)
+    {
+        foreach(var temperature in temperatures)
+        {
+            Console.WriteLine($"Summary: {temperature.Summary}");
+        }
+    }
 
-Console.WriteLine($"The first name is: {person!.Name}"); //deserializer is case sensitive
+}
+else
+{
+    Console.WriteLine($" Whoops, something went wrong: {response.StatusCode}");
+}
